@@ -1,0 +1,53 @@
+
+p {
+	background-color: #ccc;
+}
+p.red {
+	background-color: #f00;
+} 
+body {
+	background-image: url(images/bg.png);
+	margin: 0;
+}
+
+body .wrapper {
+	
+}
+
+.navigation {
+	height: 55px;
+	background-image: url(images/navigation-tile.png);
+}
+
+.label {
+	font-family: Calibri;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.wrapper {
+	width: 1024px;
+	height: 300px;
+	margin: 0 auto;
+	background-image: url(images/blueway.png);
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+.social-icons{
+	float: right;
+}
+
+.switch > span {
+	border: 1px solid #ccc;
+}
+
+.margin-demo {
+	margin: 0px auto;
+	width: 400px;
+	background-color: #0f0;
+}
+
+.header {
+	padding: 12px;
+}
+

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>
+
+.container {
+	padding: 10px;
+	background-color: #f00;
+}
+.container:after {
+	clear: both;
+	content: '';
+	display: block;
+
+}
+.container .floated {
+	background-color: #0f0;
+	padding: 20px;
+	float: left;
+	height: 500px;
+	clear: right;
+}
+
+.floated:before {
+	content:"This is the content of the before element";
+	
+	height:100px;
+	width: 200px;
+	background-color: #f0f;
+	display: block;
+}
+
+
+.floated:after {
+	content:"This is the content of the after element";
+	
+	height:100px;
+	width: 200px;
+	background-color: #f0f;
+	display: block;
+}
+
+/*.cleared {
+	clear: both;	
+}*/
+
+.clearfix {
+	clear:both;
+}
+
+.somethingelse {
+	background-color: #00f;
+	height:300px;
+	float: right;
+}
+</style>
+</head>
+
+<body>
+<div class="container"> 
+  This is a test container
+  <div class="floated"> This is some content </div>
+  <div class="somethingelse">This is a test</div>
+  <div class="clearfix"></div>
+<!--  <div class="cleared">Some text goes here</div>-->
+  
+</div>
+</body>
+</html>

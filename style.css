@@ -1,0 +1,215 @@
+body {
+	margin:auto;
+	background-image:url('images/bg.png');		
+}
+
+/*.mid-bg{
+	background-image:url('images/bg-tile.png');
+	background-repeat:repeat;
+}*/
+
+.navigation {
+	background-image:url('images/navigation-tile.png');
+	background-repeat: repeat-x;	
+}
+
+
+.social-icons {
+	float:right;
+	/* margin:auto; */
+}
+
+.label1 {
+	margin-left: 350px;
+	font-family:"League Gothic";
+	text-align:center;
+}
+
+
+.aligner {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.recent-projects-block {
+	font-family: "Helvetica";
+	font-size: 12px;
+	line-height: 20px;
+	
+	color: #8a8a8a;
+	
+}
+
+/*#read_more_button:after {
+	content: 'test';
+}*/
+
+.wrapper {
+	background-repeat:no-repeat;		
+	/* margin-left: 200px; */
+	width:1024px;
+	height:130px;
+	background-image:url('images/blueway.png'); 
+	background-position: 50% 0; 
+	
+}
+
+.grey-button {
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #f7f7f7;
+	float: right;
+	border-radius: 30px;
+	
+	box-shadow: 10px 10px 0 #bfc0c2;
+	/* border-bottom-color: #bfc0c2; */
+	
+}
+
+.header {
+	margin-left:0px;
+}
+
+.content {
+	background-image:url('images/bg-tile.png');
+	background-repeat:repeat;
+
+}
+
+.second-row {
+	border-bottom: 1px solid #d7d8da;
+	margin: 24px;
+}
+
+.recent-projects-block {
+	width: 227px;
+	float: left;
+	
+}
+
+.images-block img {
+	border: 7px solid #ccc;
+	margin:8px;
+}
+
+.images-block {
+	margin-left: 250px;
+}
+
+a {
+	text-decoration: none;
+	color: #888883
+}
+
+.whoarewe-block {
+	/* width: 612px; */
+	margin-right: 477px;
+}
+
+.whoarewe-block {
+	font-family: "Helvetica";
+	font-size: 12px;
+	line-height: 20px;
+	color: #8a8a8a;
+		
+}
+.third-row:after
+ {
+	content: ' ';
+	display: block;
+	clear: both;
+
+}
+.third-row {
+	padding:24px;
+	
+}
+
+
+.getintouch-block  {
+	border-left: 1px solid #d7d8da;
+	font-family: "Helvetica";
+	font-size: 12px;
+	line-height: 20px;
+	color: #8a8a8a;
+    
+	width: 412px;
+	float: right;
+	padding-left: 50px;
+	/* margin-left: 660px; */
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+.footer {
+	background-color: #000;
+	height: 500px;
+	color: #F4EFEF;
+}
+.dotted-line {
+	border-bottom: 1px dashed #F6F6F6;
+	width: 216px;
+}
+
+.twitter-feeds {
+	
+	
+}
+
+.footer-headings {
+	font-family: "DTL Nobel";
+	font-size: 20px;
+	color: #3CBEEA;
+}
+
+.twitter-content {
+	line-height: 8px;
+	font-size: 12px;
+	font-family: "Helvetica";
+	border-bottom: 1px dashed #FFFFFF;
+}
+
+.newsletter-content {
+	line-height: 8px;
+	font-size: 12px;
+	font-family: "Helvetica";
+}
+.blue-text {
+	font-family: "Helvetica";
+	color: #3CBEEA;
+	line-height: 3px;
+	font-size: 12px;
+	
+	
+}
+
+.mailid {
+	border-radius: 3px;
+	height: 23px;
+	font-size: 12px;
+	border: 0;
+}
+
+.sign-up {
+	background-color: #3CBEEA;
+	border: 0;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.Business-card {
+	line-height: 8px;
+	font-size: 12px;
+	font-family: "Helvetica";
+}
+
+
+
+
+
+
+
