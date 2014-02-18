@@ -24,7 +24,7 @@ body {
 
 .label1 {
 	margin-left: 350px;
-	font-family:"League Gothic";
+	font-family: "League Gothic";
 	text-align:center;
 }
 
@@ -150,36 +150,52 @@ a {
 
 .footer {
 	background-color: #000;
-	height: 500px;
 	color: #F4EFEF;
 }
-.dotted-line {
+/*.dotted-line {
 	border-bottom: 1px dashed #F6F6F6;
 	width: 216px;
 }
-
+*/
 .twitter-feeds {
 	
-	
+	width: 243px;
+	height: 250px;
+	float: left;
 }
 
-.footer-headings {
-	font-family: "DTL Nobel";
-	font-size: 20px;
+.newsletter {
+	width: 243px;
+	height: 250px;
+	float: left;
+}
+
+
+
+.footer-column h2 {
+	font-family: "League Gothic";
+	font-size: 25px;
+	font-weight: bolder;
 	color: #3CBEEA;
+	letter-spacing: 1px;
 }
 
-.twitter-content {
+.tweet {
 	line-height: 8px;
 	font-size: 12px;
 	font-family: "Helvetica";
 	border-bottom: 1px dashed #FFFFFF;
 }
 
+.tweet:last-child {
+	border-bottom: 0;
+}
+
 .newsletter-content {
-	line-height: 8px;
+	line-height: 12px;
 	font-size: 12px;
 	font-family: "Helvetica";
+	border-bottom: 1px dashed #FFFFFF;
 }
 .blue-text {
 	font-family: "Helvetica";
@@ -195,6 +211,7 @@ a {
 	height: 23px;
 	font-size: 12px;
 	border: 0;
+	width: 243px;
 }
 
 .sign-up {
@@ -204,15 +221,69 @@ a {
 	font-size: 12px;
 }
 
+.sign-up-alignmt {
+	float: right;
+	width: 77px;
+}
+
 .Business-card {
 	line-height: 8px;
 	font-size: 12px;
+	margin: 0;
 	font-family: "Helvetica";
+	border-bottom: 1px dashed #FFFFFF; 
+	height: 66px;
+	
 }
 
+/*same business card class can be used for  message boards  and design kit */
+.Message-boards {
+	line-height: 8px;
+	font-size: 12px;
+	font-family: "Helvetica";
+	border-bottom: 1px dashed #FFFFFF; 
+	height: 66px;
+}
 
+.Design-kit {
+	line-height: 8px;
+	font-size: 12px;
+	font-family: "Helvetica";
+	border-bottom: 1px dashed #FFFFFF; 
+	height: 66px;
+}
 
+.recent-projects {
+	width: 227px;
+	height: 250px;
+	float: left;
+}
 
+.footer-img {
+	float: left;
+	width: 54px;
+	height:  54px;
+	
+}
+
+.recent-project-content {
+	float: right;
+	width: 160px;
+	height:  54px;
+	
+	/* margin-top:  0; */
+	/* margin: auto; */
+}
+
+.contact {
+	width: 243px;
+	height: 250px;
+	float: left;
+}
+
+.footer-column {
+	padding-left: 15px;
+}
 
 
 
